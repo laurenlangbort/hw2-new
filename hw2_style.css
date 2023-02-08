@@ -1,0 +1,11 @@
+html,body {font-size: 20px; color: #666}  
+h1 {text-align: left; font-size: 40pt; color:rgb(37, 55, 55); font-family: serif; text-decoration: none;} 
+header {display: inline-block;}
+ul.nav a {text-decoration:none; color:rgb(37, 55, 55); font-size: 24px; padding-top: 5px} 
+ul.nav a:hover {border-bottom: 1px solid rgb(37, 55, 55);}  
+ul.nav {list-style-type: none; text-align: right;}  
+ul.nav li {display: inline-block; padding: 0 20px;} 
+@media (max-width: 380px) { 
+    ul.nav li{padding: 10px;}
+}
+  
